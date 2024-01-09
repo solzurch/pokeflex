@@ -22,19 +22,6 @@ let pokemonList = [
         weight: '85.5'
     },
 
-    {
-        name: 'Weedle',
-        height: '0.3',
-        types: ['bug', 'poison'],
-        weight: '3.2'
-    },
-
-    {
-        name: 'Pikachu',
-        height: '0.4',
-        types: electric,
-        weight: '6'
-    }
 ];
 
 for (let i = 0; i < pokemonList.length; i++){
@@ -42,7 +29,7 @@ for (let i = 0; i < pokemonList.length; i++){
     // print pokemonList
 
 if (pokemonList[i].height > 1.5){
-    document.write( "-Wow, that's big!!")
+    document.write("-Wow, that's big!!")
     // how do I put it next to it?
 }
 }
