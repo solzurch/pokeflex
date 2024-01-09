@@ -30,13 +30,6 @@ let pokemonList = [
     },
 
     {
-        name: 'Spearow',
-        height: '0.3',
-        types: ['flying', 'normal'],
-        weight: '2'
-    },
-
-    {
         name: 'Pikachu',
         height: '0.4',
         types: electric,
