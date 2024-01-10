@@ -24,12 +24,11 @@ let pokemonList = [
 
 ];
 
-for (let i = 0; i < pokemonList.length; i++){
-    document.write("<p>" + pokemonList[i].name + " (height: " + pokemonList[i].height +")" + "</p>")
-    // print pokemonList
+for (let i = 0; i < pokemonList.length; i++) {
+    let pokemonInfo = pokemonList[i].name + " (height: " + pokemonList[i].height + ")";
 
-if (pokemonList[i].height > 1.5){
-    document.write("-Wow, that's big!!")
-    // how do I put it next to it?
-}
+    if (pokemonList[i].height > 1.5) {
+        pokemonInfo += " -Wow, that's big!!"
+    }
+    document.write("<p>" + pokemonInfo + "</p>")
 }
