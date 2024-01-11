@@ -21,8 +21,9 @@ let pokemonList = [
         types: 'water',
         weight: '85.5'
     },
-
 ];
+
+
 // this is old (for loop)
 // for (let i = 0; i < pokemonList.length; i++) {
 //     let pokemonInfo = pokemonList[i].name + " (height: " + pokemonList[i].height + ")";
@@ -30,9 +31,8 @@ let pokemonList = [
 pokemonList.forEach(function(pokemon) {
   document.write("<p>" + pokemon.name + " (height: " + pokemon.height + ")" + "</p>");
 
-});
-
-    // if (pokemonList[i].height > 1.5) {
-    //     pokemonInfo += " -Wow, that's big!!"
-    // }
-    // document.write("<p>" + pokemonInfo + "</p>")
+if (pokemon.height >1.5) {
+    document.write(" -Wow, that's big!!")
+    //Hi Blaise! how can I put the info next to it?
+}
+})
