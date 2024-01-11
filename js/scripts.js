@@ -23,12 +23,16 @@ let pokemonList = [
     },
 
 ];
+// this is old (for loop)
+// for (let i = 0; i < pokemonList.length; i++) {
+//     let pokemonInfo = pokemonList[i].name + " (height: " + pokemonList[i].height + ")";
 
-for (let i = 0; i < pokemonList.length; i++) {
-    let pokemonInfo = pokemonList[i].name + " (height: " + pokemonList[i].height + ")";
+pokemonList.forEach(function(pokemon) {
+  document.write("<p>" + pokemon.name + " (height: " + pokemon.height + ")" + "</p>");
 
-    if (pokemonList[i].height > 1.5) {
-        pokemonInfo += " -Wow, that's big!!"
-    }
-    document.write("<p>" + pokemonInfo + "</p>")
-}
+});
+
+    // if (pokemonList[i].height > 1.5) {
+    //     pokemonInfo += " -Wow, that's big!!"
+    // }
+    // document.write("<p>" + pokemonInfo + "</p>")
