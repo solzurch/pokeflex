@@ -52,7 +52,10 @@ pokemonRepository.getAll().forEach(function (pokemon) {
     document.write('<p>' + pokemon.name + ' (height: ' + pokemon.height + ')' + '</p>');
 
     if (pokemon.height > 1.5) {
-        document.write(" -Wow, that's big!!")
-        //Hi Blaise! how can I put the info next to it?
+        document.write('<p>' + pokemon.name + ' (height: ' + pokemon.height + ')' +
+            ' - Wow, that\'s big!; </p>');
+    } else {
+        document.write('<p>' + pokemon.name + ' (height: ' + pokemon.height + ')' + '</p>');
     }
+
 })
