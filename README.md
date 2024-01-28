@@ -1,5 +1,9 @@
-Objective:
-to build a small web application with HTML, CSS, and JavaScript that loads
-data from an external API and enables the viewing of data points in detail.
+Project description:
 
-https://pokeapi.co/
+ It is a small application that fetches data about the Pokemon from an external API, displays detaills of a Pokemon when clicked on the name.
+
+In the project JS, HTML, CSS, Bootstrap, jQuery, and ESlint were used.
+
+API for the application API: https://pokeapi.co/
+
+Link to project: https://github.com/solzurch/pokeflex
